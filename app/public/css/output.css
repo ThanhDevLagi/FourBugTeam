@@ -634,9 +634,7 @@ video {
   height: 100%;
 }
 
-.h-\[\] {
-  height: ;
-}
+
 
 .h-\[160px\] {
   height: 160px;
@@ -922,10 +920,6 @@ video {
   padding-right: 15px;
 }
 
-.px-\[\] {
-  padding-left: ;
-  padding-right: ;
-}
 
 .px-\[12px\] {
   padding-left: 12px;
@@ -947,10 +941,6 @@ video {
   padding-right: 30px;
 }
 
-.py-\[\] {
-  padding-top: ;
-  padding-bottom: ;
-}
 
 .py-\[20px\] {
   padding-top: 20px;
@@ -961,9 +951,6 @@ video {
   padding-top: 70px;
 }
 
-.pt-\[\] {
-  padding-top: ;
-}
 
 .pt-\[40px\] {
   padding-top: 40px;
