@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Webstie Icon" type="png" href="../images/Logo_Ananas_Header.svg">
+    <title>Ananas - DiscoverYOU</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/account.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+    </style>
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+      />
+</head>
+<body>
+    <div class="container__full">
+        <div class="container__main">
+            <div class="container__main--login">
+                <section class="section__form">
+                    <form>
+                        <h1 class="title">Đăng Nhập</h1>
+                        <div class="form__group">
+                            <ion-icon class="form__icon icon-input" name="mail-outline"></ion-icon>
+                            <input class="form__input" name="email" type="email" placeholder=" ">
+                            <label class="label__place" for="">Email</label>
+                            <span class="form__message form__message-email"></span>
+                        </div>
+                        <div class="form__group">
+                            <input class="form__input" name="password" type="password" placeholder=" ">
+                            <label class="label__place" for="">Mật khẩu</label>
+                            <span class="form__message"></span>
+                            <div class="show-hidden_password">
+                                <ion-icon class="form__icon eye-icon" name="lock-closed-outline"></ion-icon>
+                                <ion-icon class="form__icon eye-icon eye-active" name="lock-open-outline"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="forget">
+                            <label class="forget__label" for=""><input type="checkbox">Nhớ mật khẩu</label>
+                            <a class="forget__password" href="#">Quên mật khẩu</a>
+                        </div>
+                        <div class="button__login">Đăng nhập</div>
+                        <div class="register">
+                            <p>Bạn chưa có tài khoản? <a class="form_register" href="#">Đăng ký</a></p>
+                        </div>
+                    </form>
+                </section>
+            </div>
+            <div class="container__main--register">
+                <section class="section__form">
+                    <form>
+                        <h1 class="title">Đăng Ký</h1>
+                        <div class="form__group">
+                            <ion-icon class="form__icon icon-input" name="code-working-outline"></ion-icon>
+                            <input class="form__input" name="name" type="text" placeholder=" ">
+                            <label class="label__place" for="">Tên tài khoản</label>
+                            <span class="form__message"></span>
+                        </div>
+                        <div class="form__group">
+                            <ion-icon class="form__icon icon-input" name="mail-outline"></ion-icon>
+                            <input class="form__input" name="email" type="email" placeholder=" ">
+                            <label class="label__place" for="">Email</label>
+                            <span class="form__message form__message-email"></span>
+                        </div>
+                        <div class="form__group">
+                            <input class="form__input" name="password" type="password" placeholder=" ">
+                            <label class="label__place" for="">Mật khẩu</label>
+                            <span class="form__message"></span>
+                            <div class="show-hidden_password">
+                                <ion-icon class="form__icon eye-icon" name="lock-closed-outline"></ion-icon>
+                                <ion-icon class="form__icon eye-icon eye-active" name="lock-open-outline"></ion-icon>
+                            </div>
+                        </div>
+                        <!-- <div class="forget">
+                            <label class="forget__label" for=""><input type="checkbox">Nhớ mật khẩu</label>
+                            <a class="forget__password" href="#">Quên mật khẩu</a>
+                        </div> -->
+                        <div class="button__login">Đăng ký</div>
+                        <div class="register">
+                            <p>Bạn đã có tài khoản? <a class="form_login" href="#">Đăng nhập.</a></p>
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="../js/slick-slider.js"></script>
+    <script src="../js/lazy-load.js"></script>
+    <script src="../js/menu.js"></script>
+    <script src="../js/account.js"></script>
+</body>
+</html>
